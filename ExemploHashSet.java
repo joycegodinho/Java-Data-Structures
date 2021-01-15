@@ -22,13 +22,43 @@ public class ExemploHashSet {
         notasAlunos.add(3.8);
         notasAlunos.add(4.0);
 
+        Set<Double> notasTrabalho = new HashSet<>();
+        notasTrabalho.add(5.8);
+        notasTrabalho.add(9.3);
+        notasTrabalho.add(6.5);
+        notasTrabalho.add(10.0);
 
         //// HashSet - não garante a ordem de inserção
         System.out.println("HashSet");
-        System.out.println(notasAlunos);
+        System.out.println("Notas prova: " + notasAlunos);
         //[4.0, 5.8, 10.0, 9.3, 3.8, 6.5, 7.3, 5.4]
         // mudou a ordem de inserção
-
+        System.out.println("Notas trabalho: " + notasTrabalho);
+        
+        // Intersecao
+        System.out.println();
+        System.out.println("Intersecao");   
+        
+        Set<Double> intersecao = new HashSet<>(notasAlunos);
+        intersecao.retainAll(notasTrabalho);
+        System.out.println(intersecao);
+        
+        //Uniao
+        System.out.println();
+        System.out.println("Uniao");
+        
+        Set<Double> uniao = new HashSet<>(notasAlunos);
+        uniao.addAll(notasTrabalho);
+        System.out.println(uniao);
+        
+        //diferenca
+        System.out.println();
+        System.out.println("Diferenca");
+        
+        Set<Double> diferenca = new HashSet<>(notasAlunos);
+        diferenca.removeAll(notasTrabalho);
+        System.out.println(diferenca);
+        
         ///Remove
         System.out.println();
         System.out.println("Remove");

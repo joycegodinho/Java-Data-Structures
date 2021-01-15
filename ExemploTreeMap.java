@@ -1,5 +1,7 @@
 package EstruturasDados;
 
+//ordena na ordem natural (crescente, alfabetica)
+
 import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;

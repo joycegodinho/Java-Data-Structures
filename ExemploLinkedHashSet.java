@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 
 //java.util.LinkedHashSet
-// utilizar quando é necessário manter a ordem de inserção
+// utilizar quando � necessário manter a ordem de insercao
 // mais lento pois mantém a ordem
 
 public class ExemploLinkedHashSet {
@@ -12,11 +12,11 @@ public class ExemploLinkedHashSet {
 
         LinkedHashSet<Integer> sequenciaNumerica = new LinkedHashSet<>();
 
-        sequenciaNumerica.add(4);
+        sequenciaNumerica.add(1);
         sequenciaNumerica.add(2);
-        sequenciaNumerica.add(23);
-        sequenciaNumerica.add(14);
-        sequenciaNumerica.add(55);
+        sequenciaNumerica.add(4);
+        sequenciaNumerica.add(8);
+        sequenciaNumerica.add(16);
         //sequenciaNumerica.add(23);
 
         //// LinkedHashSet - mantem a ordem de inserção

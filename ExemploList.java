@@ -30,14 +30,14 @@ public class ExemploList {
         // Set - para alterar a lista dinâmicamente
         System.out.println();
         System.out.println("Set - Troca");
-        nomes.set(2, "Larissa"); //(int index, String item)- troca o valor do item na posição indicada
+        nomes.set(2, "Larissa"); //(int index, String item)- troca o valor do item na posicao indicada
         System.out.println(nomes); //[Carlos, Pedro, Larissa, Anderson, Maria, João]
 
         // Sort - para ordenar - Collections
         System.out.println();
         System.out.println("Sort - Ordena");
 
-        Collections.sort(nomes); // deixa em ordem alfabética
+        Collections.sort(nomes); // deixa em ordem alfabetica
         System.out.println(nomes); //[Anderson, Carlos, João, Larissa, Maria, Pedro]
 
         // Remove
@@ -57,7 +57,7 @@ public class ExemploList {
         String nome = nomes.get(1);
         System.out.println(nome); //João
 
-        // indexOf - retorna -1 quando não há o elemento
+        // indexOf - retorna -1 quando nao ha o elemento
         System.out.println();
         System.out.println("indexOf - retorna o indice do objeto");
 
@@ -66,7 +66,7 @@ public class ExemploList {
 
         //Size
         System.out.println();
-        System.out.println("Size");
+        System.out.println("Size - tamanho");
 
         int tamanho = nomes.size();
         System.out.println(tamanho); //4
@@ -85,9 +85,9 @@ public class ExemploList {
         boolean listaEstaVazia = nomes.isEmpty();
         System.out.println(listaEstaVazia); // false
 
-        // Iteração - For
+        // Iteracao - For
         System.out.println();
-        System.out.println("Iteração - For");
+        System.out.println("Iteracao: for-each");
 
         for(String nomeDoItem: nomes){
             System.out.println("-->" + nomeDoItem);
@@ -100,9 +100,9 @@ public class ExemploList {
          -->Pedro
          */
 
-        // Interação - Iteraitor - hasNext / Next
+        // Interacao - Iteraitor - hasNext / Next
         System.out.println();
-        System.out.println("Interação - Iteraitor");
+        System.out.println("Interacao - Iteraitor");
 
         Iterator<String> iterator = nomes.iterator();
         while (iterator.hasNext()){

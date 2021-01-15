@@ -1,5 +1,8 @@
 package EstruturasDados;
 
+// não mantem a ordem
+//linked hash map mantem a ordem
+
 import java.util.HashMap;
 import java.util.Map;
 

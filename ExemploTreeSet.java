@@ -4,9 +4,9 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 //java.util.TreeSet
-// utilizar quando é necessário alterar a ordem através do uso de comparators
-// mantem a ordem e pode ser reodernado (mais lento que o linked set)
-// toda vez que a estrutura é alterada, é rodado novamente o algorítimo de ordenação, por isso fica mais lento
+// utilizar quando e necessário alterar a ordem através do uso de comparators
+// muda para a ordem natual (crescente ou alfabetica) (mais lento que o linked set)
+// toda vez que a estrutura for alterada, sera rodado novamente o algorítimo de ordenação, por isso fica mais lento
 
 public class ExemploTreeSet {
     public static void main(String[] args) {
